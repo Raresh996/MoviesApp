@@ -25,7 +25,7 @@ TheMovieDBApiToken="Add the api token here"
 ## Features:
 
 * View the most popular and top rated movies offered by TheMovieDb
-* View the poster, rating, trailer and reviews of a movies
+* View the poster, rating, trailer and reviews of a movie
 * Mark movies as favorite and be able to see them even when offline
 
 ## License:
