@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="selectionCriterias">
+        <item>@string/top_rated_criteria</item>
+        <item>@string/popular_criteria</item>
+        <item>@string/favorites_criteria</item>
+    </string-array>
+    <string-array name="selectionCriteriaForRetrofit">
+        <item>@string/top_rated_criteria_retrofit</item>
+        <item>@string/popular_criteria_retrofit</item>
+    </string-array>
+
+</resources>

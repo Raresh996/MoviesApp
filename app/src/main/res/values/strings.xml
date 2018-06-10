@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="settings">Settings</string>
+    <string name="sort_criteria_key">sortKey</string>
+    <string name="top_rated_criteria">Top Rated</string>
+    <string name="top_rated_criteria_retrofit">top_rated</string>
+    <string name="popular_criteria">Most Popular</string>
+    <string name="popular_criteria_retrofit">popular</string>
+    <string name="favorites_criteria">Favorites</string>
+    <string name="sort_criteria">Sort criteria</string>
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="internet_dialog_message">You must connect to wifi to see the results</string>
+    <string name="inter_dialog_positive_button_text">Connect to WIFI</string>
+    <string name="internet_dialog_negative_button_text">Quit</string>
+    <string name="written_by">Written by</string>
+    <string name="reviews">Reviews:</string>
+    <string name="trailers">Trailers</string>
+    <string name="added_to_fav">Added to favorite</string>
+    <string name="removed_from_fav">Removed from favorite</string>
+    <string name="wifi_enabled">Wifi enabled!</string>
+    <string name="mobile_data">Mobile data enabled!</string>
+    <string name="no_internet">Not connected to Internet!</string>
+    <string name="refresh">Refresh if data not seen!</string>
+    <string name="connect_refresh">Connect and refresh!</string>
+    <string name="please_connect_to_internet">No internet connection found</string>
+</resources>

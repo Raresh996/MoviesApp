@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayout_id"
+    android:adjustViewBounds="true">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="@dimen/elevation_size"
+        card_view:cardCornerRadius="@dimen/card_movie_radius">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/poster_height"
+            android:id="@+id/poster_iv"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/poster_iv"
+            android:paddingLeft="@dimen/movie_title_padding"
+            android:paddingRight="@dimen/movie_title_padding"
+            android:paddingTop="@dimen/movie_title_padding"
+            android:textColor="@color/colorMovieTitle"
+            android:textSize="@dimen/text_size"/>
+
+            <ImageView
+                android:id="@+id/star_iv"
+                android:src="@drawable/star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_tv"
+                android:paddingLeft="@dimen/movie_title_padding"
+                android:paddingRight="@dimen/movie_title_padding"
+                android:paddingTop="@dimen/movie_title_padding" />
+
+        <TextView
+            android:id="@+id/rating_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_tv"
+            android:layout_toRightOf="@+id/star_iv"
+            android:paddingLeft="@dimen/padding_left_size"
+            android:layout_alignBaseline="@+id/star_iv"
+            android:paddingRight="@dimen/movie_title_padding"
+            android:paddingTop="@dimen/movie_title_padding"
+            android:textColor="@color/colorRating"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size"/>
+
+        </RelativeLayout>
+        
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
