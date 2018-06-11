@@ -1,4 +1,4 @@
-# MoviesApp
+﻿# MoviesApp
 Udacity Android Developer Scholarship Project
 
 Movies App created for Udacity [Android Developer Nanodegree Program](https://eu.udacity.com/course/android-developer-nanodegree-by-google--nd801).
@@ -21,6 +21,7 @@ TheMovieDBApiToken="Add the api token here"
 * [ButterKnife](https://github.com/JakeWharton/butterknife)
 * [Glide](https://github.com/bumptech/glide)
 * [CircleImageView](https://github.com/hdodenhof/CircleImageView)
+* [CardView](https://github.com/googlesamples/android-CardView)
 
 ## Features:
 
